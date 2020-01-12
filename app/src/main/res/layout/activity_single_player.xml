@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno"
+    tools:context=".SinglePlayerActivity">
+
+    <TextView
+        android:id="@+id/text_view_task2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Wybierz liczbę graczy"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:freezesText="true"
+        android:background="@drawable/taskbg"/>
+
+    <Button
+        android:id="@+id/button_2players"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/text_view_task2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/playerbg"
+        android:text="Dwóch graczy"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_3players"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button_2players"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/playerbg"
+        android:text="Trzech graczy"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/button_4players"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button_3players"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/playerbg"
+        android:text="Czterech graczy"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+</RelativeLayout>

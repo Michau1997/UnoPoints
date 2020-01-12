@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno"
+    tools:context=".MultiPlayerActivity">
+
+    <TextView
+        android:id="@+id/text_view_task"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/taskbg"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="Wprowadź nazwę oraz członków drużyny pierwszej"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit_text_team1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_view_task"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/taskbg"
+        android:freezesText="true"
+        android:gravity="center"
+        android:hint="nazwa drużyny"
+        android:maxLines="1"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit_text_team1mate1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_text_team1"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/taskbg"
+        android:freezesText="true"
+        android:gravity="center"
+        android:hint="gracz 1"
+        android:maxLines="1"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit_text_team1mate2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_text_team1mate1"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/taskbg"
+        android:freezesText="true"
+        android:gravity="center"
+        android:hint="gracz 2"
+        android:maxLines="1"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/edit_text_team1mate2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/playerbg"
+        android:text="Dalej"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+</RelativeLayout>

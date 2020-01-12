@@ -7,17 +7,18 @@
     android:background="@drawable/uno"
     tools:context=".UnoActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/text_view_player1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:freezesText="true"
         android:layout_marginTop="50sp"
         android:layout_marginLeft="30sp"
         android:text="Gracz 1: "
         android:textColor="#FFF"
         android:textSize="30sp"
-        android:background="@color/colorBlack"/>
+        android:background="@drawable/playerbg"/>
 
 
     <EditText
@@ -32,7 +33,7 @@
         android:background="@color/colorWhite"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/text_view_player2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,7 +58,7 @@
         android:textSize="20sp"
         android:background="@color/colorWhite"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_view_player3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,7 +84,7 @@
         android:textSize="20sp"
         android:background="@color/colorWhite"/>
 
-    <TextView
+    <EditText
         android:id="@+id/text_view_player4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

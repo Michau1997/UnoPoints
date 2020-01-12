@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void startUno() {
-        Intent intent = new Intent(MainActivity.this, UnoActivity.class);
+        Intent intent = new Intent(MainActivity.this, PlayersActivity.class);
         startActivity(intent);
 
     }
