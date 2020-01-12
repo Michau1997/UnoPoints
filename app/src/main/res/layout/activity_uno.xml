@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno"
+    tools:context=".UnoActivity">
+
+    <TextView
+        android:id="@+id/text_view_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:text="Gracz 1: "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="@color/colorBlack"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_player1"
+        android:text="Wprowadź liczbę zdobytych punktów"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/text_view_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_player1"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:text="Gracz 2: "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="@color/colorBlack"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_player2"
+        android:text="Wprowadź liczbę zdobytych punktów"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/text_view_player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_player2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:text="Gracz 3: "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="@color/colorBlack"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text_player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_player3"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:text="Wprowadź liczbę zdobytych punktów"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/text_view_player4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_player3"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:text="Gracz 4: "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="@color/colorBlack"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_player4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_player4"
+        android:text="Wprowadź liczbę zdobytych punktów"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"/>
+
+</RelativeLayout>
